@@ -5,22 +5,39 @@
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 }
-body{
+/*
+bg-image{
     background-image: url("https://images.unsplash.com/photo-1544377165-d1859f53175f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=901&q=80");
+filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+}
+*/
+
+body{
+
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
     width: 100vw;
-
+background-color: antiquewhite;
 }
 
 .title{
     font-size: 30px;
     font-weight: 600;
-    color: blue;
+    color: black;
     letter-spacing: 1px;
     margin: 30px 0;
+}
+.toDo-list{
+    width: 450px;
+    padding: 20px;
+    box-shadow: 0 10px 40px black;
+    border-radius: 5px;
 }
