@@ -25,7 +25,7 @@ body{
     align-items: center;
     height: 100vh;
     width: 100vw;
-background-color: antiquewhite;
+background-color: grey;
 }
 
 .title{
@@ -40,4 +40,15 @@ background-color: antiquewhite;
     padding: 20px;
     box-shadow: 0 10px 40px black;
     border-radius: 5px;
+}
+.list-head{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+}
+.entered-list{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 16px;
 }
